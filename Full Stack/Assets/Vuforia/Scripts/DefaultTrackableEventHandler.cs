@@ -27,8 +27,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region UNITY_MONOBEHAVIOUR_METHODS
 
-    //Custom
-    public GameObject welcomeText;
 
     protected virtual void Start()
     {
@@ -101,9 +99,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
-
-        // CUSTOM CODE
-        welcomeText.SetActive(true);
     }
 
 
