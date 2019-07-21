@@ -7,6 +7,6 @@ public class load_FSD_UI : MonoBehaviour
 {
     public void play_FSD()
     {
-        SceneManager.LoadScene("FullStack");
+        SceneManager.LoadScene("FullStack 1");
     }
 }
